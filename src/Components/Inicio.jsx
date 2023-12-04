@@ -1,27 +1,47 @@
 import React from "react";
-import { Main, Figure, Section } from "../styles/InicioStyle";
-import LogoFacebook from "../assets/facebook.png";
-import LogoInstagram from "../assets/instagram.png";
-import LogoLinkedin from "../assets/linkedin.png";
+import { Main, Figure, Section, Sociais } from "../styles/InicioStyle";
+import LogoLinkedin from "../assets/linkedin-logo.png";
+import LogoInstagram from "../assets/instagram-logo.png";
+import LogoGithub from "../assets/github-logo.png";
+import Perfil from "../assets/perfil.jpg";
 
 export default function Inicio() {
     return (
         <>
             <Main>
-                <Figure>
-                    <img src="" alt="avatar" />
-                </Figure>
-
                 <Section>
-                    <h1>Olá, eu sou___</h1>
-                    <nav>
+                    <p>Olá, me chamo</p>
+                    <h1>
+                        Ray Martins
+                    </h1>
+                    <h3>
+                        Sou desenvolvedor.
+                    </h3>
+                    <Sociais>
                         <ul>
-                            <li><img src={LogoFacebook} alt="facebook" /></li>
-                            <li><img src={LogoInstagram} alt="facebook" /></li>
-                            <li><img src={LogoLinkedin} alt="facebook" /></li>
+                            <li>
+                                <a href="https://github.com/rhaymarthins">
+                                    <img src={LogoGithub} alt="github" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/ray-martinss/">
+                                    <img src={LogoLinkedin} alt="linkedin" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/raymv_">
+                                    <img src={LogoInstagram} alt="instagram" />
+                                </a>
+                            </li>
+
                         </ul>
-                    </nav>
+                    </Sociais>
                 </Section>
+
+                <Figure>
+                    <img src={Perfil} alt="perfil" />
+                </Figure>
             </Main>
 
         </>
