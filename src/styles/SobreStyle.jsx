@@ -13,6 +13,7 @@ export const Imagem = styled.img`
     // border:solid;
     height: 50vh;
     width: 40vw;
+    border-radius: 2rem;
 `
 
 export const Descricao = styled.section`
