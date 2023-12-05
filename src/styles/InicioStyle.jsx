@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Main = styled.main`
     height: 80vh;
-    background-color: #0B2C4D;
+    background-color: #A6A6A6;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -21,14 +21,18 @@ export const Section = styled.section`
     
     p{
         text-align: center;
+        font-weight: 500;
+        font-size: 20px;
     }
     h1{
         font-size: 3rem;
         text-align: center;
+        font-weight: 600;
     }
     h3{
         font-size: 1.75rem;
         margin-bottom: 1rem;
+        font-weight: 500;    
     }
 `
 
