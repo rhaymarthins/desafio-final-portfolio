@@ -5,8 +5,8 @@ import PortCalculadora from "../assets/port-calculadora.png";
 
 export default function Projetos() {
     const projetos = [
-        { nome: "Contador", link: "", github: "https://github.com/rhaymarthins/contador", image: PortContador },
-        { nome: "Calculadora", link: "", github: "https://github.com/rhaymarthins/calculadora", image: PortCalculadora },
+        { nome: "Contador", link: "https://replit.com/@RayMartins/desafio02", github: "https://github.com/rhaymarthins/contador", image: PortContador },
+        { nome: "Calculadora", link: "https://calculadora-figwnkufx-ray-martins-projects.vercel.app/", github: "https://github.com/rhaymarthins/calculadora", image: PortCalculadora },
         // { nome: "Halloween", link: "", image: "" },
         // { nome: "Outubro Rosa", link: "", image: "" },
     ];

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Main = styled.main`
     height: 80vh;
-    background-color: #0B2C4D;
+    background-color: #A6A6A6;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -12,18 +12,15 @@ export const Section = styled.section`
     display: flex;
     text-align: initial;
     flex-wrap: wrap;
-    // flex-direction: column;
-    gap: 2.5vw; 
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: space-between;
     height: 65vh;
     width: 35vw;
     margin: 0 auto;
-    // border: solid;
-
-    background: white;
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
+    background: #F1F4DF;
+    border-radius: 3rem;
+    border: 0.1rem solid;
+    border-color: #0D0D0D;
     text-align: center;
 `
 
@@ -35,13 +32,16 @@ export const Figure = styled.figure`
     text-align: center;
     // border: solid;
     flex: 1 0 30vw;
-    height: 45vh;
+    height: 50vh;
 
     img {
         height: 40vh; 
         width: 30vw; 
         border-radius: 2rem;
         object-fit: cover;
+    }
+    h3{
+        font-weight: 600;
     }
 `
 
@@ -52,7 +52,7 @@ export const Botao = styled.div`
     text-align: center;
     // display: block;
     // margin-top: 1rem; 
-    height: 8vh;
+    height: 7vh;
     width: 100%;
 
     button {
@@ -67,7 +67,7 @@ export const Botao = styled.div`
 
     button:hover{
         cursor: pointer;
-        background: rgb(53, 53, 53);
+        background: #0D0D0D;
         color: white;
     }
     
