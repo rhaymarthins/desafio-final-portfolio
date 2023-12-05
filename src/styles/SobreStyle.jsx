@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const Main = styled.main`
     height: 80vh;
-    background-color: #0B2C4D;
+    background-color: #A6A6A6;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: white;
+    color: #0D0D0D;
 `
 
 export const Imagem = styled.img`
@@ -22,5 +22,6 @@ export const Descricao = styled.section`
     align-items: center;
     height: 50vh;
     width: 40vw;
-    font-size: 28px
+    font-size: 26px;
+    font-weight: 500;
 `
